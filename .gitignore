@@ -1,1 +1,4 @@
 _reference_old_project/
+data/
+*.sqlite
+*.db

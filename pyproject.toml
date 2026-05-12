@@ -1,0 +1,14 @@
+[project]
+name = "strompreisprognose"
+version = "0.1.0"
+description = "Prognose von Strompreisen anhand von Wetterdaten"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openmeteo-requests>=1.7.5",
+    "pandas>=3.0.2",
+    "requests-cache>=1.3.2",
+    "retry-requests>=2.0.0",
+    "sqlalchemy>=2.0.49",
+]
+
